@@ -8,40 +8,52 @@
     <title>Document</title>
 </head>
 <body>
-    <header class="w-screen  h-[10vh] flex items-center justify-around shadow-2xl">
+    <header>
+     <div class="w-screen  h-[10vh] flex items-center justify-around shadow-2xl">
         <img src="../udemy-new-20212512.jpg" alt="logo" class="w-20 h-20">
-        <label for="categories"></label>
-        <select name="sdgv" id="sdb">
-            <label for="sgd"></label>
-            <option value="" class="font-[16px]">Categories</option>
+        <label for="categories" class="appearance-none"></label>
+        <select name="cat" id="cat" class="appearance-none">
+            <option value="">Categories</option>
             <option value="">Development</option>
             <option value="">Business</option>
             <option value="">Finance and Accounting</option>
-            <option value="">tubvgk</option>
         </select>
 
-        <div class="w-6 border-[1px] border-gray-900 rounded-3xl bg-[#f7f9fa] flex">
+        <div class="w-10 border-[1px] border-gray-900 rounded-3xl bg-[#f7f9fa] flex justify-around">
             <i class="bi bi-search"></i>
-            <input type="text" placeholder="Search for anything" class="bg-[#f7f9fa] outline-none border-none">
+            <input type="text" placeholder="Search for anything" class="bg-[#f7f9fa] outline-none border-none w-[200px]">
         </div>
+       
         <a href="#">udemy business</a>
         <a href="#">teach on udemy</a>
         <i class="bi bi-cart3"></i>
         <button>log in</button>
         <button>sign up</button>
         <i class="bi bi-globe"></i>
+        </div>    
     </header>
      <main class="width-[80%] m-auto">
-        <div>
-            <img src="/udemyhero.jpg" alt="" class="relative">
+        <div  class="bg-[url('/udemyhero.jpg')] h-[70vh] bg-no-repeat bg-cover flex flex-col  shadow-sm bg-white justify-center items-center">
+            <!--<img src="/udemyhero.jpg" alt="" class="relative">-->
+            <div class="bg-white flex justify-end flex-col mr-[500px] p-5">
+                <h1 class="font-bold text-[25px]">Leaening that gets you</h1>
+                <p  class="font-bold text-[25px]">Skills for your present day and future</p>
+            </div>
         </div> 
-       <div class="w-[80%]">
+       <!--<div class="w-[80%]">
         <div  class="absolute top-40 left-[100px] w-[390px] h-[150px] shadow-sm bg-white pl-[7px] pr-15px">
             <h1 class="font-bold text-[35px] p-2 mr-1">Leaening that gets you</h1>
             <p  class="p-2 pb-0">Skills for your present day and future</p>
         </div>
+    </div>-->
+    </main><br><br>
+    <div>
+        <button class="w-[200px] rounded-[999em] h-[100px] p-5 bg-black  text-white">Web Development<br>
+            13.3M+ learners</button>
+
+        <!--<button class="p-5 w-[200px] rounded-[30%] text-white bg-black">Web Development<br>
+            13.3M+ learners</button>-->
     </div>
-    </main>
 
 </body>
 </html>
